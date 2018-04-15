@@ -1,7 +1,7 @@
 package main
 
 import (
-	"log"
+	"fmt"
 	"sync"
 )
 
@@ -24,5 +24,5 @@ func main() {
 	for i := 0; i < times; i++ {
 		<-c
 	}
-	log.Printf("a = %d", a)
+	fmt.Printf("a = %d\n", a)
 }

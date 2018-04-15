@@ -1,8 +1,6 @@
 package main
 
-import (
-	"log"
-)
+import "fmt"
 
 func main() {
 	a := 0
@@ -19,5 +17,5 @@ func main() {
 	for i := 0; i < times; i++ {
 		<-c
 	}
-	log.Printf("a = %d", a)
+	fmt.Printf("a = %d\n", a)
 }
