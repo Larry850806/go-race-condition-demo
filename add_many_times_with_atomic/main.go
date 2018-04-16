@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	var a int32 = 0
+	var a int32
 	times := 10000
 	c := make(chan bool)
 
